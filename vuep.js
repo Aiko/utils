@@ -1,3 +1,9 @@
+/* A persistence library for Vue.js
+*
+* @author   Priansh Shah <priansh@helloaiko.com>, Ruben Touitou <ruben@helloaiko.com> for Aiko AI <https://helloaiko.com>
+* @license  MIT
+*/
+
 const VueP = appname => {
     if (!!!appname) appname = 'my-app'
     const prefix = '@' + appname + '/'; let ignored = []
